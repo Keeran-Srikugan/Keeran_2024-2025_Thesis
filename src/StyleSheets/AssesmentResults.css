@@ -1,0 +1,86 @@
+body {
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar .Home {
+  color: rgb(49, 0, 0); /* Button text color */
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+  color: rgb(49, 0, 0); /* Button text color */
+  background-color: bisque;
+  border: 2px solid black;
+  font-size: 25px;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  color: #444;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #666;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+.PieChartContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.GetResults {
+  background-color: #ff7675;
+}
+
+.GetResults:hover {
+  background-color: #d63031;
+}

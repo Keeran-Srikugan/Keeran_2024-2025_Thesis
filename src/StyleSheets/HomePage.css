@@ -1,0 +1,112 @@
+.title{
+    display: flex;          /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center;    /* Center items vertically */
+           /* Full viewport height */
+    margin: 0;
+
+    font-size: 60px;
+
+    margin-top: 100px;
+    
+}
+.authors{
+    display: flex;          /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center;    /* Center items vertically */
+         /* Full viewport height */
+    margin: 0;
+
+    margin-top: 20px;
+    font-size: 27px;
+
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: left; /* Centers the nav bar */
+    background-color: rgb(158, 129, 93); /* Dark background for the nav bar */
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgb(229, 188, 137);
+
+}
+
+.HomePage{
+    background-image: url('https://img.freepik.com/premium-photo/musical-theme-with-piano-keys-creating-border-around-tex_955012-22904.jpg');
+    background-size: cover; /* Makes the background cover the entire container */
+    background-position: center; /* Centers the image */
+    height: 100vh; /* Full viewport height */
+
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: black;
+   
+    height: 100vh; /* Full viewport height */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body and html fill the viewport */
+  }
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center align buttons horizontally */
+    gap: 30px; /* Add spacing between buttons */
+    margin-top: 300px;
+
+    
+    
+    
+}
+
+
+.Assesment {
+    color: rgb(49, 0, 0); /* Button text color */
+    background-color: bisque;
+    border: 2px solid black;
+    font-size: 35px;
+  }
+  
+.Assesment:hover {
+  background-color: rgb(173, 143, 102); /* Change color on hover */
+}
+
+
+.Exercises {
+    color: rgb(49, 0, 0); /* Button text color */
+    background-color: bisque;
+    border: 2px solid black;
+    font-size: 35px;
+  }
+  
+.Exercises:hover {
+  background-color: rgb(173, 143, 102); /* Change color on hover */
+}
+
+
+.About {
+    color: rgb(49, 0, 0); /* Button text color */
+    background-color: bisque;
+    border: 2px solid black;
+    font-size: 35px;
+  }
+  
+.About:hover {
+  background-color: rgb(173, 143, 102); /* Change color on hover */
+}
+
+.Home {
+    color: rgb(49, 0, 0); /* Button text color */
+    background-color: bisque;
+    border: 2px solid black;
+    font-size: 35px;
+  }
+  
+.Home:hover {
+  background-color: rgb(173, 143, 102); /* Change color on hover */
+}

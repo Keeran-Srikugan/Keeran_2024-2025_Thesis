@@ -1,0 +1,74 @@
+.body {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.NoteSelection {
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+}
+
+.treble {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.note {
+    position: absolute;
+    bottom: 40%; /* Adjust for correct vertical alignment */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28%; /* Adjust based on scaling */
+    height: auto;
+}
+
+.sharp {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: auto;
+}
+
+.TimeAndScore {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Responsive Keyboard Image */
+#note {
+    width: 80%;
+    height: 40%;
+    max-width: 400px;
+    max-height: 300px;
+    height: auto;
+
+    
+}
+
+/* Responsive SVG Circles */
+.svg-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.svg-container svg {
+    width: 15vw; /* Scales dynamically with screen size */
+    max-width: 100px; /* Maximum size */
+    height: auto;
+}

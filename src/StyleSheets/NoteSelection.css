@@ -1,0 +1,66 @@
+.container {
+  background-color: rgb(229, 188, 137);
+  padding: 20px;
+  border-radius: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#PianoSheet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Adds spacing between images */
+  width: 100%;
+  padding: 20px 0;
+}
+
+.sheet {
+  max-width: 300px;
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.sheet:hover {
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+#ContinueButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: rgb(49, 0, 0);
+  background-color: bisque;
+  border: 2px solid black;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ContinueButton:hover {
+  background-color: rgb(200, 150, 100);
+}
+
+.MainTitle {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page {
+  background-color: rgb(229, 188, 137);
+  padding: 20px;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(158, 129, 93);
+  padding: 10px;
+}
